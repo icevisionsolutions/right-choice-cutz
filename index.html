@@ -6,6 +6,12 @@
 <meta name="color-scheme" content="dark">
 <title>Right Choice Cutz Barbershop</title>
 <meta name="description" content="Right Choice Cutz Barbershop — skin fades, line-ups, and beard work in Minneapolis, MN. Book a chair online.">
+<link rel="icon" type="image/png" sizes="48x48" href="favicon-48.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16.png">
+<link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+<link rel="manifest" href="manifest.webmanifest">
+<meta name="theme-color" content="#171310">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700&family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,600;0,9..144,700;0,9..144,900;1,9..144,500;1,9..144,600&display=swap" rel="stylesheet">
@@ -66,8 +72,10 @@ header{
   border-image:linear-gradient(90deg, transparent, var(--brass-dim) 25%, var(--oxblood) 50%, var(--brass-dim) 75%, transparent) 1;
 }
 .bar{display:flex;align-items:center;gap:30px;height:68px}
-.mark{font-family:var(--serif);font-size:21px;font-weight:600;font-style:italic;text-decoration:none;color:var(--cream);white-space:nowrap}
+.mark{font-family:var(--serif);font-size:21px;font-weight:600;font-style:italic;text-decoration:none;color:var(--cream);white-space:nowrap;display:flex;align-items:center;gap:10px}
 .mark em{font-style:italic;color:var(--oxblood-lit)}
+.mark img{height:44px;width:auto;display:block}
+footer .mark img{height:36px}
 nav{margin-left:auto;display:flex;align-items:center;gap:28px}
 nav a:not(.btn){font-size:15px;text-decoration:none;color:var(--text-dim);position:relative;padding-bottom:3px}
 nav a:not(.btn)::after{content:"";position:absolute;left:0;right:100%;bottom:0;height:1px;background:var(--brass);transition:right .2s ease}
@@ -151,7 +159,7 @@ footer a:hover{color:var(--brass)}
 
 <header>
   <div class="wrap bar">
-    <a class="mark" href="#top">Right Choice <em>Cutz</em></a>
+    <a class="mark" href="#top">Right Choice <em>Cutz</em><img src="images/logo.png" alt="Right Choice Cutz Barbershop logo"></a>
     <nav>
       <a href="#services">Services</a>
       <a href="#visit">Visit</a>
@@ -202,7 +210,7 @@ footer a:hover{color:var(--brass)}
           <p style="color:var(--text-dim);margin-bottom:26px">Booking is handled through Booksy — pick a service and a time that works, and we'll see you in the chair.</p>
           <div class="hero-cta" style="justify-content:center;flex-direction:column">
             <a class="btn btn-red" href="https://booksy.com/en-us/421527_right-choice-barbershop_barber-shop_134619_minneapolis#ba_s=seo" target="_blank" rel="noopener" style="width:100%;text-align:center">Book on Booksy</a>
-            <a class="btn btn-outline" href="tel:+16125326229" style="width:100%;text-align:center">Call the shop</a>
+            <a class="btn btn-outline" href="tel:+17635687525" style="width:100%;text-align:center">Call the shop</a>
           </div>
         </div>
       </div>
@@ -230,7 +238,7 @@ footer a:hover{color:var(--brass)}
         <p class="addr">Right Choice Cutz Barbershop<br>6032 N 42nd Ave<br>Minneapolis, MN 55422</p>
         <div class="visit-links">
           <a class="btn btn-outline" href="https://maps.google.com/?q=Right+Choice+Cutz+Barbershop,+6032+N+42nd+Ave,+Minneapolis,+MN+55422" target="_blank" rel="noopener">Get directions</a>
-          <a class="btn btn-red" href="tel:+16125326229">Call (612) 532-6229</a>
+          <a class="btn btn-red" href="tel:+17635687525">Call (763) 568-7525</a>
         </div>
       </div>
       <div>
@@ -273,12 +281,12 @@ footer a:hover{color:var(--brass)}
 
 <footer>
   <div class="wrap foot-grid">
-    <a class="mark" href="#top">Right Choice <em>Cutz</em></a>
+    <a class="mark" href="#top"><img src="images/logo.png" alt="Right Choice Cutz Barbershop"></a>
     <div style="display:flex;gap:20px;flex-wrap:wrap">
       <a href="#services">Services</a>
       <a href="#visit">Visit</a>
       <a href="https://www.instagram.com/cuttinright612?stkn=MWg5MmpkOGx6cDhpdg==" target="_blank" rel="noopener">Instagram</a>
-      <a href="tel:+16125326229">(612) 532-6229</a>
+      <a href="tel:+17635687525">(763) 568-7525</a>
     </div>
   </div>
 </footer>
